@@ -1,0 +1,24 @@
+{
+  "name": "hw28-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage --collectCoverageFrom=src/**/*.{js,jsx}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashabas/HW28-Jest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dashabas/HW28-Jest/issues"
+  },
+  "homepage": "https://github.com/dashabas/HW28-Jest#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.18.6",
+    "jest": "^28.1.2"
+  }
+}
